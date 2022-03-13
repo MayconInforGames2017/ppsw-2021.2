@@ -25,6 +25,8 @@ import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.util.Vector;
 
+import br.upe.ppsw.jabberpoint.domain.Presentation;
+
 /**
  * Representa os dados de um slide de uma {@link Presentation} composta por uma lista de
  * {@link SlideItem} e um {@link TextItem}.

@@ -27,11 +27,12 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import br.upe.ppsw.jabberpoint.apresentacao.Accessor;
-import br.upe.ppsw.jabberpoint.apresentacao.Presentation;
+
 import br.upe.ppsw.jabberpoint.apresentacao.SlideViewerFrame;
 import br.upe.ppsw.jabberpoint.apresentacao.Style;
 import br.upe.ppsw.jabberpoint.apresentacao.XMLAccessor;
+import br.upe.ppsw.jabberpoint.domain.Accessor;
+import br.upe.ppsw.jabberpoint.domain.Presentation;
 
 /**
  * Classe principal que inicializa a aplicação de apresentação de slides

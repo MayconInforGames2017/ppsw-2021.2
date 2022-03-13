@@ -31,6 +31,9 @@ import java.io.IOException;
 import javax.swing.JOptionPane;
 import org.springframework.util.ResourceUtils;
 
+import br.upe.ppsw.jabberpoint.domain.Accessor;
+import br.upe.ppsw.jabberpoint.domain.Presentation;
+
 /**
  * Implementação dos mecanismos de controle navegacional através de um menu superior de uma
  * {@link Presentation}.
@@ -133,6 +136,7 @@ public class MenuController extends MenuBar {
     menuItem.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent actionEvent) {
         presentation.nextSlide();
+        System.out.println("Proximo");
       }
     });
 
@@ -141,6 +145,7 @@ public class MenuController extends MenuBar {
     menuItem.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent actionEvent) {
         presentation.prevSlide();
+        System.out.println("Não sei");
       }
     });
 
@@ -151,6 +156,7 @@ public class MenuController extends MenuBar {
         String pageNumberStr = JOptionPane.showInputDialog((Object) PAGENR);
         int pageNumber = Integer.parseInt(pageNumberStr);
         presentation.setSlideNumber(pageNumber - 1);
+        System.out.println("Aqui");
       }
     });
 

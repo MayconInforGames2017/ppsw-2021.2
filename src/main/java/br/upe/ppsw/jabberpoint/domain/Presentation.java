@@ -18,9 +18,12 @@
  * 
  * @author Ian F. Darwin, hbarreiros
  */
-package br.upe.ppsw.jabberpoint.apresentacao;
+package br.upe.ppsw.jabberpoint.domain;
 
 import java.util.ArrayList;
+
+import br.upe.ppsw.jabberpoint.apresentacao.Slide;
+import br.upe.ppsw.jabberpoint.apresentacao.SlideViewerComponent;
 
 /**
  * Representa uma Apresentação no sistema. Composta por um título, lista de slides e componente de

@@ -34,6 +34,9 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import br.upe.ppsw.jabberpoint.domain.Accessor;
+import br.upe.ppsw.jabberpoint.domain.Presentation;
+
 /**
  * Representação XML de um arquivo de {@link Presentation}
  */

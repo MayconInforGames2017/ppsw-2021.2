@@ -25,6 +25,8 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import javax.swing.JFrame;
 
+import br.upe.ppsw.jabberpoint.domain.Presentation;
+
 /**
  * Representa a janela de exibição ao usuário dos {@link Slide} de uma {@link Presentation};
  */

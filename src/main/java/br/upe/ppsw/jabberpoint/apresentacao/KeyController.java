@@ -23,6 +23,8 @@ package br.upe.ppsw.jabberpoint.apresentacao;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
+import br.upe.ppsw.jabberpoint.domain.Presentation;
+
 /**
  * Implementação dos mecanismos de controle navegacional entre os {@link Slide} de uma
  * {@link Presentation} através do teclado.

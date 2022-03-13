@@ -18,9 +18,11 @@
  * 
  * @author Ian F. Darwin, hbarreiros
  */
-package br.upe.ppsw.jabberpoint.apresentacao;
+package br.upe.ppsw.jabberpoint.domain;
 
 import java.io.IOException;
+
+import br.upe.ppsw.jabberpoint.apresentacao.DemoPresentation;
 
 /**
  * Representação mais abstrata de um arquivo que armazena os dados de uma {@link Presentation}

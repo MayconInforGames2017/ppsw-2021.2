@@ -23,6 +23,8 @@ package br.upe.ppsw.jabberpoint.apresentacao;
 import java.awt.Color;
 import java.awt.Font;
 
+import br.upe.ppsw.jabberpoint.domain.Presentation;
+
 /**
  * Representa uma folha de estilos que é aplicado aos {@link SlideItem} dos {@link Slide} de uma
  * {@link Presentation}
