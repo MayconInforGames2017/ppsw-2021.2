@@ -18,31 +18,16 @@
  * 
  * @author Ian F. Darwin, hbarreiros
  */
-package br.upe.ppsw.jabberpoint.domain;
+package br.upe.ppsw.jabberpoint.repository;
 
 import java.io.IOException;
 
-import br.upe.ppsw.jabberpoint.apresentacao.DemoPresentation;
+import br.upe.ppsw.jabberpoint.apresentacao.Presentation;
 
 /**
  * Representação mais abstrata de um arquivo que armazena os dados de uma {@link Presentation}
  */
-public abstract class Accessor {
-
-  public static final String DEMO_NAME = "Apresentação de Demonstração";
-  public static final String DEFAULT_EXTENSION = ".xml";
-
-  /**
-   * Inicializa uma apresentação padrão de demonstração.
-   * 
-   * @return uma instância de {@link Accessor} que contém os dados de uma {@link Presentation}
-   *         configurada com os dados armazenados pelo {@link Accessor}.
-   */
-  public static Accessor getDemoAccessor() {
-    return new DemoPresentation();
-  }
-
-  public Accessor() {}
+public interface Accessor {
 
   /**
    * Implementa a recuperação de dados salvas no arquivo que serão carregadas na apresentação.

@@ -28,8 +28,6 @@ import java.awt.Rectangle;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
-import br.upe.ppsw.jabberpoint.domain.Presentation;
-
 /**
  * Representa o componente de apresentação dos {@link Slide} de uma {@link Presentation}.
  */

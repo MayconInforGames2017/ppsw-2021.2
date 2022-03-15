@@ -23,13 +23,12 @@ package br.upe.ppsw.jabberpoint.apresentacao;
 import java.io.FileNotFoundException;
 import org.springframework.util.ResourceUtils;
 
-import br.upe.ppsw.jabberpoint.domain.Accessor;
-import br.upe.ppsw.jabberpoint.domain.Presentation;
+import br.upe.ppsw.jabberpoint.repository.Accessor;
 
 /**
  * Representa os dados de uma {@link Presentation} de demonstração.
  */
-public class DemoPresentation extends Accessor {
+public class DemoPresentation implements Accessor {
 
   public void loadFile(Presentation presentation, String unusedFilename)
       throws FileNotFoundException {

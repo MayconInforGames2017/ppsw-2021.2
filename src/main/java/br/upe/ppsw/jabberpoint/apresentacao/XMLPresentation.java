@@ -34,13 +34,12 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import br.upe.ppsw.jabberpoint.domain.Accessor;
-import br.upe.ppsw.jabberpoint.domain.Presentation;
+import br.upe.ppsw.jabberpoint.repository.Accessor;
 
 /**
  * Representação XML de um arquivo de {@link Presentation}
  */
-public class XMLAccessor extends Accessor {
+public class XMLPresentation implements Accessor {
 
   protected static final String DEFAULT_API_TO_USE = "dom";
 

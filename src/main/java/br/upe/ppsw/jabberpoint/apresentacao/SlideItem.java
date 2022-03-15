@@ -24,8 +24,6 @@ import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 
-import br.upe.ppsw.jabberpoint.domain.Presentation;
-
 /**
  * Representação abstrata de um item de {@link Slide} em uma {@link Presentation}
  */
