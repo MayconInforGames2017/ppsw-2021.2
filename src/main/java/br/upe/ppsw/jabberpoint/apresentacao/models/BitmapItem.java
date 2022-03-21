@@ -18,15 +18,19 @@
  * 
  * @author Ian F. Darwin, hbarreiros
  */
-package br.upe.ppsw.jabberpoint.apresentacao;
+package br.upe.ppsw.jabberpoint.apresentacao.models;
 
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 import java.io.IOException;
+
 import javax.imageio.ImageIO;
+
 import org.springframework.util.ResourceUtils;
+
+import br.upe.ppsw.jabberpoint.view.Style;
 
 /**
  * Representa um item de {@link Slide} do tipo imagem.

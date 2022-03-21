@@ -22,7 +22,7 @@ package br.upe.ppsw.jabberpoint.repository;
 
 import java.io.IOException;
 
-import br.upe.ppsw.jabberpoint.apresentacao.Presentation;
+import br.upe.ppsw.jabberpoint.apresentacao.models.Presentation;
 
 /**
  * Representação mais abstrata de um arquivo que armazena os dados de uma {@link Presentation}
