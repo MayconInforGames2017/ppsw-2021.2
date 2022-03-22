@@ -33,8 +33,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import br.upe.ppsw.jabberpoint.apresentacao.models.DemoPresentation;
 import br.upe.ppsw.jabberpoint.apresentacao.models.Presentation;
 import br.upe.ppsw.jabberpoint.apresentacao.models.XMLPresentation;
-import br.upe.ppsw.jabberpoint.view.SlideViewerFrame;
-import br.upe.ppsw.jabberpoint.view.Style;
+import br.upe.ppsw.jabberpoint.apresentacao.view.SlideViewerFrame;
+import br.upe.ppsw.jabberpoint.apresentacao.view.Style;
 
 /**
  * Classe principal que inicializa a aplicação de apresentação de slides

@@ -35,8 +35,8 @@ import org.springframework.util.ResourceUtils;
 
 import br.upe.ppsw.jabberpoint.apresentacao.models.Presentation;
 import br.upe.ppsw.jabberpoint.apresentacao.models.XMLPresentation;
-import br.upe.ppsw.jabberpoint.repository.Accessor;
-import br.upe.ppsw.jabberpoint.view.AboutBox;
+import br.upe.ppsw.jabberpoint.apresentacao.repository.Accessor;
+import br.upe.ppsw.jabberpoint.apresentacao.view.AboutBox;
 
 /**
  * Implementação dos mecanismos de controle navegacional através de um menu

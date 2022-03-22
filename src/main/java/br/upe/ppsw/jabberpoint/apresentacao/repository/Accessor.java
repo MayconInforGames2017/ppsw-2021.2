@@ -18,7 +18,7 @@
  * 
  * @author Ian F. Darwin, hbarreiros
  */
-package br.upe.ppsw.jabberpoint.repository;
+package br.upe.ppsw.jabberpoint.apresentacao.repository;
 
 import java.io.IOException;
 

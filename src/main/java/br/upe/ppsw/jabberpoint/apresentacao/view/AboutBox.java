@@ -18,7 +18,7 @@
  * 
  * @author Ian F. Darwin, hbarreiros
  */
-package br.upe.ppsw.jabberpoint.view;
+package br.upe.ppsw.jabberpoint.apresentacao.view;
 
 import java.awt.Frame;
 import javax.swing.JOptionPane;

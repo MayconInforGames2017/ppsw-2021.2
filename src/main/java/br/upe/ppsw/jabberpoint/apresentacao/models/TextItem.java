@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import br.upe.ppsw.jabberpoint.view.Style;
+import br.upe.ppsw.jabberpoint.apresentacao.view.Style;
 
 /**
  * Representa a informação de texto de um {@link Slide} em um {@link Slide}

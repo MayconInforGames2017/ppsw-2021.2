@@ -30,7 +30,7 @@ import javax.imageio.ImageIO;
 
 import org.springframework.util.ResourceUtils;
 
-import br.upe.ppsw.jabberpoint.view.Style;
+import br.upe.ppsw.jabberpoint.apresentacao.view.Style;
 
 /**
  * Representa um item de {@link Slide} do tipo imagem.

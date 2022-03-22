@@ -25,7 +25,7 @@ import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.util.Vector;
 
-import br.upe.ppsw.jabberpoint.view.Style;
+import br.upe.ppsw.jabberpoint.apresentacao.view.Style;
 
 /**
  * Representa os dados de um slide de uma {@link Presentation} composta por uma lista de

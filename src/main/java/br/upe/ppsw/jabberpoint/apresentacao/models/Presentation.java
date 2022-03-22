@@ -22,7 +22,7 @@ package br.upe.ppsw.jabberpoint.apresentacao.models;
 
 import java.util.ArrayList;
 
-import br.upe.ppsw.jabberpoint.view.SlideViewerComponent;
+import br.upe.ppsw.jabberpoint.apresentacao.view.*;
 
 /**
  * Representa uma Apresentação no sistema. Composta por um título, lista de slides e componente de
